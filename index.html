@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Gurudas College Application Form</title>
+</head>
+<body>
+  <div class="animated-form">
+    <div class="logo-container">
+      <img src="college_logo.jpg" alt="Gurudas College Logo" width="400">
+    </div>
+    <div class="wave-container">
+    <div class="wave"></div>
+  </div>
+    <form>
+      <fieldset>
+        <legend><span class="bold-text">Personal Information</span></legend>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+  
+        <div class="form-group">
+          <label for="dateOfBirth">Date of Birth:</label>
+          <input type="date" id="dateOfBirth" name="dateOfBirth">
+        </div>
+  
+        <div class="form-group">
+          <label for="fathersName">Father's Name:</label>
+          <input type="text" id="fathersName" name="fathersName">
+        </div>
+  
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          <input type="text" id="otherGenderText" name="otherGenderText" placeholder="Specify">
+        </div>
+  
+        <div class="form-group">
+          <label for="languagesKnown">Languages Known:</label>
+          <select id="languagesKnown" name="languagesKnown">
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="bengali">Bengali</option>
+            <option value="spanish">Spanish</option>
+            <option value="other">Other</option>
+          </select>
+          <input type="text" id="otherLanguageText" name="otherLanguageText" placeholder="Specify">
+        </div>
+
+        <div class="form-group">
+          <label for="contactNumber">Contact Number:</label>
+          <input type="tel" id="contactNumber" name="contactNumber" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-group">
+          <label for="emergencyContactName">Emergency Contact Name:</label>
+          <input type="text" id="emergencyContactName" name="emergencyContactName">
+        </div>
+        <div class="form-group">
+          <label for="emergencyContactNumber">Emergency Contact Number:</label>
+          <input type="tel" id="emergencyContactNumber" name="emergencyContactNumber" placeholder="Enter emergency contact number">
+        </div>
+
+        <div class="form-group">
+          <label for="highSchoolName">High School Name:</label>
+          <input type="text" id="highSchoolName" name="highSchoolName">
+        </div>
+        <div class="form-group">
+          <label for="highSchoolGraduationYear">High School Graduation Year:</label>
+          <input type="number" id="highSchoolGraduationYear" name="highSchoolGraduationYear" placeholder="Enter graduation year">
+        </div>
+
+        <div class="form-group">
+          <label for="extracurricularActivities">Extracurricular Activities:</label>
+          <textarea id="extracurricularActivities" name="extracurricularActivities" rows="3" placeholder="List any extracurricular activities you have participated in."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="parentGuardianName">Parent/Guardian Name:</label>
+          <input type="text" id="parentGuardianName" name="parentGuardianName">
+        </div>
+        <div class="form-group">
+          <label for="parentGuardianContact">Parent/Guardian Contact Number:</label>
+          <input type="tel" id="parentGuardianContact" name="parentGuardianContact" placeholder="Enter parent/guardian contact number">
+        </div>
+      </fieldset>
+  
+      <fieldset>
+        <legend><span class="bold-text">Course Applied For</span></legend>
+        <select id="course" name="course">
+          <option value="bsc">B.Sc.</option>
+          <option value="ba">B.A.</option>
+          <option value="bba">B.B.A.</option>
+          <option value="bca">B.C.A.</option>
+          <option value="bcom">B.Com.</option>
+          <option value="msc">M.Sc.</option>
+          <option value="ma">M.A.</option>
+          <option value="mba">M.B.A.</option>
+          <option value="mca">M.C.A.</option>
+          <option value="mcom">M.Com.</option>
+          <option value="barch">B.Arch</option>
+          <!-- Add more courses here -->
+        </select>
+      </fieldset>
+  
+      <button type="submit" class="animated-button">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
